@@ -127,7 +127,7 @@
           "lib/netstandard2.0/IdentityExpress.Manager.BusinessLogic.dll": {}
         }
       },
-      "IdentityModel/3.0.0": {
+      "IdentityModel/3.1.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "10.0.3"
@@ -154,10 +154,10 @@
           "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.dll": {}
         }
       },
-      "IdentityServer4/2.1.1": {
+      "IdentityServer4/2.1.2": {
         "type": "package",
         "dependencies": {
-          "IdentityModel": "3.0.0",
+          "IdentityModel": "3.1.0",
           "Microsoft.AspNetCore.Authentication": "2.0.1",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.0.1",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.0.1",
@@ -5650,12 +5650,12 @@
         "lib/netstandard2.0/IdentityExpress.Manager.BusinessLogic.dll"
       ]
     },
-    "IdentityModel/3.0.0": {
-      "sha512": "EKMOOUUqDzBR3goiA8eWJ1aQBz1AMfKVxxR7XnzAf5qq2k9vr6GT91SyHmzC14KINpNNJOrbmowXf5S04gQ0ZA==",
+    "IdentityModel/3.1.0": {
+      "sha512": "r+mZKYQTL33k8ehcma3tmK0qEqM8OzO/cDZvqEorkmTrsnBccvUyNlfDZ+Ozgw9kR+YJP7J9v4+JBLEBekK0aQ==",
       "type": "package",
-      "path": "identitymodel/3.0.0",
+      "path": "identitymodel/3.1.0",
       "files": [
-        "identitymodel.3.0.0.nupkg.sha512",
+        "identitymodel.3.1.0.nupkg.sha512",
         "identitymodel.nuspec",
         "lib/net452/IdentityModel.dll",
         "lib/net452/IdentityModel.xml",
@@ -5678,12 +5678,12 @@
         "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.xml"
       ]
     },
-    "IdentityServer4/2.1.1": {
-      "sha512": "SeSGMMAT/FEnir5zxDrdDvenxtuPVAxTAUNYtYjVl40sAKsjwJJ9GE9kSv9QI3trU8vLft5ApRFQhOYAt6Itug==",
+    "IdentityServer4/2.1.2": {
+      "sha512": "BZHo3z7AJNc4rGtA8RZy6/d/+tSqBe70AZtiLAh2QuSopsr+PLOM0PT2m6KyJ+KwkiGmyqkFzafEWLMcvJCuqQ==",
       "type": "package",
-      "path": "identityserver4/2.1.1",
+      "path": "identityserver4/2.1.2",
       "files": [
-        "identityserver4.2.1.1.nupkg.sha512",
+        "identityserver4.2.1.2.nupkg.sha512",
         "identityserver4.nuspec",
         "lib/netstandard2.0/IdentityServer4.dll",
         "lib/netstandard2.0/IdentityServer4.pdb",
@@ -14212,7 +14212,7 @@
     ".NETCoreApp,Version=v2.0": [
       "IdentityExpress.Manager.Api >= 2.0.0.54",
       "IdentityExpress.Manager.BusinessLogic >= 2.0.0.54",
-      "IdentityServer4 >= 2.1.1",
+      "IdentityServer4 >= 2.1.2",
       "IdentityServer4.AspNetIdentity >= 2.1.0",
       "IdentityServer4.EntityFramework >= 2.1.1",
       "Microsoft.AspNetCore.All >= 2.0.5",
@@ -14275,7 +14275,7 @@
           },
           "IdentityServer4": {
             "target": "Package",
-            "version": "[2.1.1, )"
+            "version": "[2.1.2, )"
           },
           "IdentityServer4.AspNetIdentity": {
             "target": "Package",

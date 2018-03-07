@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +24,17 @@ namespace Mvc_Client
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            
+            services.AddAuthentication()
+                .AddCookie()
+                .AddOpenIdConnect( options =>
+                {
+                    options.ClientId = "mvc";
+                    options.ClientSecret = "mvc";
+                    options.Authority = "http://localhost:5000";
+                    options.SaveTokens = true;
+                    options.Scope.Add("offline_access");
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +57,7 @@ namespace Mvc_Client
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            app.UseAuthentication();
         }
     }
 }
