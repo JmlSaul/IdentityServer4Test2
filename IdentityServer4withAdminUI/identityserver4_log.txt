@@ -1,0 +1,233 @@
+2018-03-07 16:02:03.042 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-03-07 16:02:03.130 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-03-07 16:02:03.131 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-03-07 16:02:03.132 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-03-07 16:02:03.133 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-03-07 16:02:04.725 +08:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-03-07 16:02:05.750 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:02:39.913 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-03-07 16:13:56.926 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-03-07 16:14:26.208 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-03-07 16:14:26.301 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-03-07 16:14:26.302 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-03-07 16:14:26.302 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-03-07 16:14:26.303 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-03-07 16:14:27.383 +08:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-03-07 16:14:27.820 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:15:19.456 +08:00 [DBG] CORS request made for path: /Account/Register from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-03-07 16:15:19.979 +08:00 [DBG] Augmenting SignInContext
+2018-03-07 16:15:19.981 +08:00 [DBG] Adding idp claim with value: local
+2018-03-07 16:15:19.982 +08:00 [DBG] Adding amr claim with value: pwd
+2018-03-07 16:15:19.984 +08:00 [DBG] Adding auth_time claim with value: 1520410519
+2018-03-07 16:15:20.005 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-03-07 16:15:20.656 +08:00 [ERR] An unhandled exception has occurred while executing the request
+System.ArgumentException: Value cannot be null or empty.
+Parameter name: url
+   at Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(String url)
+   at IdentityServer4.Quickstart.UI.AccountController.<Register>d__8.MoveNext() in C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\Quickstart\Account\AccountController.cs:line 81
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-03-07 16:16:07.265 +08:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-03-07 16:16:29.268 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-03-07 16:16:29.395 +08:00 [DBG] Augmenting SignInContext
+2018-03-07 16:16:29.404 +08:00 [DBG] Adding idp claim with value: local
+2018-03-07 16:16:29.407 +08:00 [DBG] Adding amr claim with value: pwd
+2018-03-07 16:16:29.408 +08:00 [DBG] Adding auth_time claim with value: 1520410589
+2018-03-07 16:16:29.412 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-03-07 16:16:29.579 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice@gmail.com",
+  "SubjectId": "4ed2964d-1d30-49ad-b366-fb7e817a8adf",
+  "DisplayName": "alice@gmail.com",
+  "Endpoint": "UI",
+  "ActivityId": "0HLC40DP4GS5N:00000004",
+  "TimeStamp": "2018-03-07T08:16:29Z",
+  "ProcessId": 14568,
+  "LocalIpAddress": "::1:5000",
+  "RemoteIpAddress": "::1"
+}
+2018-03-07 16:16:29.610 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:16:29.624 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:16:29.680 +08:00 [DBG] 0 persisted grants found for 4ed2964d-1d30-49ad-b366-fb7e817a8adf
+2018-03-07 16:17:30.826 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:30.838 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:30.870 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-03-07 16:17:30.896 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-03-07 16:17:30.942 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-03-07 16:17:30.951 +08:00 [DBG] Start discovery request
+2018-03-07 16:17:31.881 +08:00 [DBG] Found ["openid","profile"] as all scopes in database
+2018-03-07 16:17:31.973 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:31.977 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:34.303 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:34.309 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:34.310 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:34.317 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:34.335 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:17:49.511 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:49.517 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:49.524 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:17:49.539 +08:00 [INF] Finding User by Subject 4ed2964d-1d30-49ad-b366-fb7e817a8adf
+2018-03-07 16:17:49.711 +08:00 [INF] Successfully Retrieved item by Subject 4ed2964d-1d30-49ad-b366-fb7e817a8adf
+2018-03-07 16:17:49.800 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:49.806 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:49.892 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:49.899 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:54.269 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:54.273 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:54.274 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:54.294 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:17:54.300 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:18:28.216 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:28.221 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:28.240 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:18:28.294 +08:00 [INF] Creating User
+2018-03-07 16:18:28.601 +08:00 [WRN] The Include operation for navigation '[x].Roles.Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-03-07 16:18:28.605 +08:00 [WRN] The Include operation for navigation '[x].Claims.ClaimTypeNav' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-03-07 16:18:28.682 +08:00 [INF] Successfully Created User
+2018-03-07 16:18:28.725 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:28.734 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:28.739 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:18:36.155 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:36.161 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:36.167 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:18:37.447 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:37.451 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:37.457 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:18:40.899 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:40.909 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:49.358 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:49.376 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:49.645 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:49.648 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:52.366 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:52.370 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:52.474 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:52.477 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:52.529 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:52.532 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:55.839 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:18:55.847 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:19:00.662 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:19:00.669 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:19:00.678 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:19:07.885 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:19:07.910 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:19:07.915 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:19:07.923 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:09.796 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:09.800 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:09.814 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:22:10.546 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:10.559 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:10.564 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:22:26.638 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:26.646 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:35.870 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:35.884 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:39.762 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:39.813 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:39.826 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:39.833 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:39.852 +08:00 [FTL] ****** Using non-production Community Edition ******
+2018-03-07 16:22:46.008 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:46.018 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:54.214 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-03-07 16:22:54.220 +08:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.

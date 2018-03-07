@@ -1,0 +1,11 @@
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\bin\Debug\netcoreapp2.0\IdentityServer4withAdminUI.deps.json
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\bin\Debug\netcoreapp2.0\IdentityServer4withAdminUI.runtimeconfig.json
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\bin\Debug\netcoreapp2.0\IdentityServer4withAdminUI.runtimeconfig.dev.json
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\bin\Debug\netcoreapp2.0\IdentityServer4withAdminUI.dll
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\bin\Debug\netcoreapp2.0\IdentityServer4withAdminUI.pdb
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\obj\Debug\netcoreapp2.0\IdentityServer4withAdminUI.csproj.CoreCompileInputs.cache
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\obj\Debug\netcoreapp2.0\IdentityServer4withAdminUI.AssemblyInfoInputs.cache
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\obj\Debug\netcoreapp2.0\IdentityServer4withAdminUI.AssemblyInfo.cs
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\obj\Debug\netcoreapp2.0\IdentityServer4withAdminUI.dll
+C:\Users\Live\RiderProjects\IdentityServer4withAdminUI\IdentityServer4withAdminUI\obj\Debug\netcoreapp2.0\IdentityServer4withAdminUI.pdb

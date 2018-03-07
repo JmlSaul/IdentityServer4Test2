@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4withAdminUI", "IdentityServer4withAdminUI\IdentityServer4withAdminUI.csproj", "{764E062B-31CC-442F-9322-1CF20D9D9456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc Client", "Mvc Client\Mvc Client.csproj", "{1AE8A759-1614-4BE3-994E-6B4AD9AF2503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{764E062B-31CC-442F-9322-1CF20D9D9456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764E062B-31CC-442F-9322-1CF20D9D9456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764E062B-31CC-442F-9322-1CF20D9D9456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764E062B-31CC-442F-9322-1CF20D9D9456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE8A759-1614-4BE3-994E-6B4AD9AF2503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE8A759-1614-4BE3-994E-6B4AD9AF2503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE8A759-1614-4BE3-994E-6B4AD9AF2503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE8A759-1614-4BE3-994E-6B4AD9AF2503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
